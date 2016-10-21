@@ -1,0 +1,8 @@
+Host mcserver_console
+	HostName localhost.loacldomain
+	User root
+	Port 22
+	PubkeyAuthentication yes
+	IdentityFile ./key.txt
+	UserKnownHostsFile=./known_hosts 
+	StrictHostKeyChecking=no
